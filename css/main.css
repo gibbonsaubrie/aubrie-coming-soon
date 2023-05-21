@@ -13,7 +13,6 @@ a:hover {
   text-shadow: none;
   /* Prevent inheritence from `body` */
   background-color: transparent;
-  border: 2px solid #fff;
   border-radius: 20px;
   padding: 0.5rem 2rem; }
 
@@ -29,11 +28,12 @@ body {
   height: 100%; }
 
 body {
-  background: url(../img/cover.jpg) no-repeat center center fixed;
+  background: url(../img/cover.png) no-repeat center center fixed;
   background-size: cover;
-  color: #fff;
+  color: #E7E7E7;
   text-align: center;
-  font-family: 'Quicksand', sans-serif; }
+  font-family: 'DM Sans';
+}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -87,18 +87,46 @@ body {
   padding: 10px 60px;
   font-weight: 500;
   text-transform: uppercase;
-  border-radius: 40px; }
+  border-radius: 40px;
+  background-color: white;
+  color: #800000;
+  font-weight: bold;
+}
+
+.cover .btn-notify:hover {  
+  background-color: #800000;
+  color: white;
+}
+
+.modal-footer .btn-notify {
+  color: #800000;
+  background-color: white;
+  font-weight: bold;
+}
+
+.modal-footer .btn-notify:hover {  
+  background-color: #800000;
+  color: white;
+}
+
 
 .cover-heading {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 10px;
   font-size: 2rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 1rem; 
+  color: #800000;
+  @font-face {
+    font-family: the-seasons;
+    src: url(webfonts/The Seasons Regular.ttf);
+  } 
+  font-family: the-seasons;
+  font-size: 5.25rem;
+}
 
 @media (min-width: 768px) {
   .cover-heading {
-    font-size: 3.4rem;
     letter-spacing: 15px; } }
 
 .cover-copy {
@@ -117,7 +145,7 @@ body {
  * Subscribe modal box
  */
 #subscribeModal .modal-content {
-  background-color: #303546;
+  background-color: #848487;
   color: #fff;
   text-align: left; }
 
@@ -129,8 +157,8 @@ body {
 
 #subscribeModal .form-control {
   margin-top: 1rem;
-  background: rgba(0, 0, 0, 0.4);
-  color: #fff; }
+  background: #fff;
+  color: #800000; }
   #subscribeModal .form-control:focus {
     border-color: #49506a; }
 
@@ -160,3 +188,11 @@ body {
   .mastfoot,
   .cover-container {
     width: 1060px; } }
+
+.color-grey {
+  back: #545454;
+}
+
+h3 {
+  font-size: 1.25rem;
+}

@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Coming Soon Bootstrap Template - Coming Soon</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
-    </noscript>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
     <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
     <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
     <link href="css/main.css?ver=1.2.0" rel="stylesheet">
@@ -20,44 +16,41 @@
     <div class="cover-container">
       <div class="masthead clearfix">
         <div class="inner">
-          <h3 class="masthead-brand">Coming Soon</h3>
-          <nav class="nav nav-masthead">
-            <a class="nav-link nav-social" href="#" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-            <a class="nav-link nav-social" href="#" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-            <a class="nav-link nav-social" href="#" title="Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-            <a class="nav-link nav-social" href="#" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-          </nav>
+          <h3 class="masthead-brand"><a href="tel:9418897919">+1 (941) 889-7917</a></h3>
+          <h3 class="masthead-brand" style="float: right;"><a href="mailto:admin@executiveway.com">admin@executiveway.com</a></h3>
         </div>
       </div>      
       <div class="inner cover">
-        <h1 class="cover-heading">The adventure Begins</h1>
-        <p class="lead cover-copy">Hold tight as we get our working robots together and produce the most astonishing product ever.</p>
-        <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal" data-target="#subscribeModal">Notify Me</button></p>
+        <h1 class="cover-heading">Welcome</h1>
+        <p class="lead cover-copy">Excuse our mess.<br>Our admin team is currently cleaning up<br>the Executive Suite...</p>
+        <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal" data-target="#subscribeModal">Contact Us</button></p>
       </div>
       <div class="mastfoot">
         <div class="inner">
-          <p>&copy; Your Company. Design: <a href="https://templateflip.com/" target="_blank">TemplateFlip</a>.</p>
+          <p>&copy; Executive Auto. Design: <a href="https://templateflip.com/" target="_blank" style="color:#800000">TemplateFlip</a>.</p>
         </div>
       </div>
       <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="subscribeModalLabel">Get Notified on Launch:</h5>
+              <h5 class="modal-title" id="subscribeModalLabel" style="font-weight: bold;">Let's keep in touch...</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body" style="padding-top: 0;">
               <form>
                 <div class="form-group">
-                  <label for="recipient-name" class="form-control-label">Enter you e-mail to get notified when we launch</label>
-                  <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com">
+                  <input type="text" class="form-control color-grey" id="recipient-name" placeholder="Your Name">
+                  <input type="text" class="form-control color-grey" id="recipient-email" placeholder="your-name@example.com">
+                  <input type="text" class="form-control color-grey" id="recipient-phone" placeholder="(555) 555-5555">
+                  <textarea class="form-control color-grey" id="recipient-message" placeholder="Your Message"></textarea>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default">Subscribe</button>
+              <button type="button" id="contact-us" class="btn btn-default " class="close" data-dismiss="modal" aria-label="Close">Submit</button>
             </div>
           </div>
         </div>
