@@ -125,9 +125,16 @@ body {
   font-size: 5.25rem;
 }
 
+@media (max-width: 768px) {
+  .cover-heading {
+    font-size: 4.25rem;
+  } 
+  }
+
 @media (min-width: 768px) {
   .cover-heading {
-    letter-spacing: 15px; } }
+    letter-spacing: 15px; } 
+  }
 
 .cover-copy {
   max-width: 500px;
